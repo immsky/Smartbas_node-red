@@ -14,12 +14,15 @@
 coverage
 credentials.json
 flows*.json
+!data/flows.json
 nodes/node-red-nodes/
 node_modules
 public
 locales/zz-ZZ
 nodes/core/locales/zz-ZZ
 !packages/node_modules
+!data/node_modules
+!data/node_modules/node-red-dashboard
 packages/node_modules/@node-red/editor-client/public
 !test/**/node_modules
 docs
