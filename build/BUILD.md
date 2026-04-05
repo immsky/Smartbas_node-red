@@ -62,7 +62,30 @@ build/
 
 ---
 
-## 3. Compile the Installers
+## 3. Patch Third-Party Modules
+
+The `node-red-dashboard` and `@flowfuse/node-red-dashboard` npm packages
+cannot be forked in-place, so their branding is overlaid post-install by
+[build/patch-modules.js](patch-modules.js). This runs automatically as
+a `postinstall` hook when you install dependencies, but you can also
+re-run it manually:
+
+```bat
+npm run patch-modules
+```
+
+The script is idempotent — it backs up originals as `*.orig` on first
+run and is safe to re-run after every `npm install`. It:
+
+- Rewrites "Node-RED Dashboard" → "SmartBAS BMS Dashboard" in the
+  dashboard's server-side `ui.js`, locale files, compiled HTML/JS
+- Injects SmartBAS welcome-page theme CSS into the dashboard index
+- Replaces the dashboard's 64/120/192 px icons with the SmartBAS glyph
+- Rewrites FlowFuse Dashboard title + base64 favicon to SmartBAS
+
+---
+
+## 4. Compile the Installers
 
 From the `build/` directory:
 
@@ -78,7 +101,7 @@ Both EXEs land in `build\output\`.
 
 ---
 
-## 4. Optional — Code Signing
+## 5. Optional — Code Signing
 
 ```bat
 signtool sign /fd SHA256 /tr http://timestamp.digicert.com /td SHA256 ^
@@ -92,7 +115,7 @@ signtool sign /fd SHA256 /tr http://timestamp.digicert.com /td SHA256 ^
 
 ---
 
-## 5. Issuing More License Keys
+## 6. Issuing More License Keys
 
 License keys are embedded directly in the compiled binary — there is no
 external database, INI, or sidecar file.
@@ -110,7 +133,7 @@ Keys must match the regex `^SMBAS-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4
 
 ---
 
-## 6. Testing Checklist
+## 7. Testing Checklist
 
 Run each of these scenarios on a clean Windows 10/11 VM:
 
@@ -137,7 +160,7 @@ Run each of these scenarios on a clean Windows 10/11 VM:
 
 ---
 
-## 7. Troubleshooting
+## 8. Troubleshooting
 
 | Symptom                              | Fix                                                       |
 | ------------------------------------ | --------------------------------------------------------- |

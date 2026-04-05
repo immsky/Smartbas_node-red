@@ -15,7 +15,9 @@
         "build": "grunt build",
         "dev": "grunt dev",
         "build-dev": "grunt build-dev",
-        "docs": "grunt docs"
+        "docs": "grunt docs",
+        "patch-modules": "node build/patch-modules.js",
+        "postinstall": "node build/patch-modules.js"
     },
     "contributors": [
         {
