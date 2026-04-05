@@ -1,0 +1,8 @@
+# Build artifacts - not committed
+output/
+app/
+runtime/*.zip
+tools/nssm.exe
+*.orig
+_preview_*.png
+_icon_*.png

@@ -1,0 +1,370 @@
+End User License Agreement                                     April 6, 2026
+============================================================================
+
+SMARTBAS TECHNOLOGIES ("SMARTBAS") HAS DEVELOPED A BUILDING AUTOMATION
+PLATFORM FOR INTERCONNECTING CONTROLLERS, SENSORS AND FIELD DEVICES THAT IS
+MARKETED UNDER THE NAME "SMARTBAS BMS" (THE "LICENSED SOFTWARE"). TOGETHER
+WITH THE PRINTED OR ONLINE DOCUMENTATION FURNISHED BY SMARTBAS IN
+CONJUNCTION WITH IT, THE ELEMENTS ARE REFERRED TO BELOW AS THE "LICENSED
+SOFTWARE" AND ARE LICENSED UNDER THIS END USER LICENSE AGREEMENT. SMARTBAS
+IS WILLING TO PROVIDE A LIMITED LICENSE OF THE LICENSED SOFTWARE TO YOU
+ONLY ON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS IN THIS AGREEMENT.
+
+PLEASE READ THE TERMS AND CONDITIONS OF THIS AGREEMENT CAREFULLY BEFORE
+CLICKING ON THE "I ACCEPT" BUTTON. BY CLICKING ON THE "I ACCEPT" BUTTON
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT AND AGREE TO BE BOUND
+BY ITS TERMS AND CONDITIONS. IF YOU ARE INSTALLING THE LICENSED SOFTWARE
+ON BEHALF OF AN END USER, YOU REPRESENT THAT YOU ARE AUTHORIZED BY THE
+END USER TO ACCEPT THE TERMS OF THIS LICENSE ON THEIR BEHALF. IF YOU DO
+NOT AGREE TO THE TERMS OF THIS LICENSE AGREEMENT, CLICK ON THE "CANCEL"
+OR "DO NOT ACCEPT" BUTTON TO DISCONTINUE THE INSTALLATION PROCESS.
+
+
+1.    LICENSE GRANTS AND RESTRICTIONS.
+-----------------------------------------------------------------------------
+1.1   Licensed Software. Subject to the terms and conditions contained
+      herein, SmartBAS hereby grants you a non-transferable, non-exclusive,
+      limited license to install, use and execute the Licensed Software on
+      the single computer or controller identified during the installation
+      process (the "Designated System") by its MachineGuid host identifier,
+      and to use the documentation furnished by SmartBAS in conjunction
+      with it.
+
+1.2   Term of Grant. The license granted in Section 1.1 is valid for a
+      term of TWELVE (12) MONTHS beginning on the date of installation
+      recorded at the time of activation (the "Activation Date"). The
+      Activation Date, the corresponding expiration date (the "Expiration
+      Date"), and the MachineGuid of the Designated System are permanently
+      recorded in the file "license.json" placed in the installation
+      directory, and in the Windows registry under
+      HKLM\SOFTWARE\SmartBAS at the time of installation. The initial
+      12-month term begins automatically and does not require any further
+      activation step by the Licensee.
+
+1.3   No Other Rights Granted. Apart from the license expressly granted
+      herein, no license or other right is granted by SmartBAS to you under
+      this Agreement, either directly or by implication, estoppel, or
+      otherwise (including, but not limited to, the right to prepare
+      derivative works). You shall have no right or access to the source
+      code of the Licensed Software other than the source code, if any,
+      for certain application program interfaces that are included with
+      the Licensed Software. If any source code is included with the
+      Licensed Software, it is provided solely as a reference and may not
+      be modified by you in any way.
+
+1.4   Host-Locked Licensing. Each license key issued by SmartBAS may be
+      activated on exactly ONE Designated System. Once a license key has
+      been successfully used to activate the Licensed Software on a
+      Designated System, the key becomes permanently bound to the
+      MachineGuid of that system. The same license key cannot thereafter
+      be reused on any other machine, including after uninstallation of
+      the Licensed Software from the original Designated System.
+
+1.5   Security Assessments. If you wish to conduct penetration testing
+      or a vulnerability assessment on the Licensed Software, you shall
+      (i) provide SmartBAS a reasonable opportunity to participate in such
+      testing, and (ii) provide SmartBAS with the results of such test
+      promptly upon completion. You may not conduct any test that
+      decompiles any portion of the Licensed Software into binary code
+      or otherwise exposes the binary code of any part of the Licensed
+      Software.
+
+
+2.    YOUR RESPONSIBILITIES.
+-----------------------------------------------------------------------------
+2.1   Restrictions on Use. You shall (i) use all commercially reasonable
+      efforts to ensure that your employees comply with the terms of this
+      Agreement; (ii) not modify, decompile, disassemble, decrypt, extract,
+      or otherwise reverse engineer the Licensed Software or any part
+      thereof, or grant any other person the right to do so; (iii) not
+      insert, delete, or replace any end user license agreement or license
+      file in the Licensed Software; (iv) not loan, rent, lease, give,
+      sublicense, transfer, publish, disclose, display, or otherwise
+      distribute or make available the Licensed Software, in whole or in
+      part, to any other person or entity, except that you may provide
+      remote access to the Licensed Software to your customers to the
+      extent necessary for them to view information or perform functions
+      as part of a service you provide to them; and (v) not incorporate
+      any code included with the Licensed Software or any documentation
+      in any product created by you using the Licensed Software.
+
+2.2   Maintaining Security. YOU ACKNOWLEDGE THAT MAINTAINING THE HIGHEST
+      LEVEL OF PROTECTION AVAILABLE FROM SMARTBAS AGAINST UNAUTHORIZED
+      ACCESS TO THE LICENSED SOFTWARE REQUIRES PROMPT INSTALLATION OF ALL
+      SECURITY UPDATES ISSUED BY SMARTBAS DURING THE ACTIVE MAINTENANCE
+      TERM, AND THAT YOUR FAILURE TO DO SO MAY LEAVE THE LICENSED
+      SOFTWARE AND THE DATA AND DEVICES CONNECTED THROUGH IT EXPOSED TO
+      SUCH ACCESS.
+
+
+3.    TECHNICAL SUPPORT AND MAINTENANCE.
+-----------------------------------------------------------------------------
+3.1   Initial Maintenance Term. For the 12-month period beginning on the
+      Activation Date ("Initial Maintenance Term"), SmartBAS shall provide
+      to the Licensee, without additional charge:
+
+        (a) technical support for software defects and configuration
+            assistance relating to the Licensed Software, during
+            SmartBAS's published business hours;
+        (b) security patches addressing vulnerabilities identified by
+            SmartBAS or by the security community, issued at SmartBAS's
+            discretion;
+        (c) minor version updates of the Licensed Software released
+            during the Initial Maintenance Term.
+
+3.2   Annual Maintenance Renewal. At the end of the Initial Maintenance
+      Term the license will enter a maintenance-expired state. Continued
+      entitlement to technical support, security patches and version
+      updates requires the purchase of an annual maintenance renewal
+      ("Annual Maintenance Renewal") from SmartBAS or an authorized
+      SmartBAS reseller. Each Annual Maintenance Renewal extends the
+      entitlements described in Section 3.1 for a further period of
+      TWELVE (12) MONTHS from the date the previous term expires.
+
+3.3   Lapsed Maintenance. SmartBAS is under no obligation to provide
+      technical support, security patches, or updates for installations
+      whose Annual Maintenance Renewal has lapsed. Security vulnerabilities
+      discovered after the maintenance term has expired will not be
+      patched on unrenewed installations. The Licensed Software will
+      continue to operate on the Designated System after the maintenance
+      term lapses; however, such continued operation is at the Licensee's
+      sole risk, and the disclaimers and limitations in Section 7 apply
+      with full force.
+
+3.4   No Obligation Outside Renewal. SmartBAS shall have no obligation
+      to provide technical support to you at any time except as provided
+      in this Section 3 during an active Initial Maintenance Term or
+      Annual Maintenance Renewal, or as otherwise provided in a separate
+      agreement signed by SmartBAS.
+
+
+4.    LICENSE FEES. The license fees paid by or for you to SmartBAS are
+-----------------------------------------------------------------------------
+      paid in consideration of the licenses granted under this Agreement
+      and the Initial Maintenance Term described in Section 3.1. Fees
+      for Annual Maintenance Renewal are charged separately at SmartBAS's
+      then-current rates.
+
+
+5.    OWNERSHIP AND CONFIDENTIALITY.
+-----------------------------------------------------------------------------
+5.1   Ownership by SmartBAS. SmartBAS retains all right, title and
+      interest in and to the Licensed Software. You shall not have any
+      right, title, or interest in the Licensed Software except as
+      provided in this Agreement, and further shall secure and protect
+      the Licensed Software consistent with maintenance of SmartBAS's
+      proprietary rights. You agree that you shall not contest or
+      challenge, or take any action inconsistent with, SmartBAS's
+      ownership or intellectual property rights.
+
+5.2   Confidentiality. You acknowledge that the Licensed Software contains
+      valuable trade secrets of SmartBAS and you agree to maintain the
+      confidentiality of the Licensed Software using at least the same
+      degree of care you use with your own confidential information. Any
+      information learned by you as a result of an investigation of a
+      security vulnerability of the Licensed Software is the confidential
+      information of SmartBAS.
+
+5.3   Protection of Your Data. Your flow data, credentials and configuration
+      stored by the Licensed Software on the Designated System are
+      protected by the operating system access controls of the Designated
+      System and, where configured, by an administrator password created
+      by you. SmartBAS does not have access to, and does not store copies
+      of, your flow data, credentials or configuration. In the event an
+      administrator password is lost, SmartBAS may, at its sole
+      discretion, upon the written request of a person SmartBAS believes
+      to be the then-current owner of the Designated System, provide
+      instructions for resetting the administrator identity, provided the
+      requester has physical or administrative access to the Designated
+      System.
+
+
+6.    THIRD-PARTY CODE.
+-----------------------------------------------------------------------------
+      The Licensed Software incorporates or is built upon certain third-
+      party open-source components, including without limitation Node-RED
+      (Apache License 2.0), Node.js (MIT License), and NSSM (Public
+      Domain). Additional copyright notices and license terms applicable
+      to portions of the Licensed Software are set forth in the
+      readmeLicenses.txt file provided with the Licensed Software. The
+      disclaimer of warranty and limitation of liability provisions
+      contained in Section 7 of this Agreement shall apply to all
+      third-party code contained in the Licensed Software.
+
+
+7.    WARRANTIES AND LIMITATIONS.
+-----------------------------------------------------------------------------
+7.1   Disclaimer of Software Warranty. SMARTBAS LICENSES THE LICENSED
+      SOFTWARE "AS IS," AND MAKES NO EXPRESS OR IMPLIED WARRANTY OF ANY
+      KIND. SMARTBAS SPECIFICALLY DISCLAIMS ALL INDIRECT OR IMPLIED
+      WARRANTIES TO THE FULL EXTENT ALLOWED BY APPLICABLE LAW, INCLUDING
+      WITHOUT LIMITATION ALL IMPLIED WARRANTIES OF NON-INFRINGEMENT,
+      MERCHANTABILITY, TITLE OR FITNESS FOR ANY PARTICULAR PURPOSE. NO
+      ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY SMARTBAS, ITS
+      AGENTS OR EMPLOYEES SHALL CREATE A WARRANTY.
+
+7.2   No Reliance. You hereby acknowledge that you have not relied on the
+      future availability of any programs or services in making any
+      payment or entering into any payment obligation related to the
+      Licensed Software.
+
+7.3   Limitation of Liability. NEITHER SMARTBAS NOR ANY OF ITS LICENSORS,
+      OFFICERS, AGENTS, EMPLOYEES OR REPRESENTATIVES SHALL BE LIABLE FOR
+      INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, STATUTORY OR PUNITIVE
+      DAMAGES OR PENALTIES (INCLUDING DAMAGES FOR LOST PROFITS, LOST
+      BUSINESS, LOSS OF USE, PERSONAL INJURY, LOST OR CORRUPTED DATA,
+      UNAUTHORIZED ACCESS TO DATA BY A THIRD PARTY OR ANY OTHER SECURITY
+      BREACH, BUSINESS INTERRUPTION, AND THE LIKE), HOWEVER IT ARISES,
+      WHETHER FOR BREACH, INDEMNITY, WARRANTY, OPERATION OF LAW, IN TORT,
+      OR OTHERWISE, EVEN IF SMARTBAS HAS BEEN ADVISED OF THE POSSIBILITY
+      OF SUCH DAMAGES.
+
+7.4   Limitation of Remedies. IN NO EVENT SHALL SMARTBAS'S MONETARY
+      LIABILITY IN CONNECTION WITH THIS AGREEMENT OR THE LICENSED
+      SOFTWARE, TO YOU, EXCEED THE AMOUNTS PAID TO IT BY YOU PURSUANT
+      TO THIS AGREEMENT DURING THE TWELVE (12) MONTHS IMMEDIATELY
+      PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
+
+
+8.    SAFETY AND ASSURANCES.
+-----------------------------------------------------------------------------
+      There can be no assurances whatsoever that building automation
+      systems such as the Licensed Software will protect any individual
+      or property from harm. Appropriate safety precautions must always
+      be taken when operating or maintaining equipment connected to the
+      Licensed Software. SmartBAS assumes no responsibility or liability
+      for any injury or damage to persons or property resulting from
+      your use of the Licensed Software. You represent and warrant that
+      you will take appropriate precautions, establish appropriate
+      procedures and post appropriate notices to ensure that persons and
+      property are not harmed in the event of an error, malfunction or
+      unexpected operation of the Licensed Software or of any equipment
+      controlled by it.
+
+
+9.    HIGH-RISK APPLICATIONS.
+-----------------------------------------------------------------------------
+      Unless SmartBAS has provided its express written consent for each
+      specific deployment, you will make reasonable business efforts to
+      ensure that the Licensed Software is not used in any application in
+      which the failure of the Licensed Software could lead to death,
+      personal injury or severe physical or property damage, including
+      without limitation the operation of nuclear facilities, mass transit
+      systems, aircraft navigation or communication systems, air traffic
+      control, weapon systems, and direct life-support machines. SmartBAS
+      expressly disclaims any express or implied warranty or condition of
+      fitness for such High-Risk Applications.
+
+
+10.   INDEMNIFICATION.
+-----------------------------------------------------------------------------
+      You shall indemnify and hold harmless SmartBAS from and against all
+      losses, claims, damages or other causes of any nature or kind
+      (including reasonable attorney's fees) arising directly or
+      indirectly out of third-party claims concerning (i) a breach of any
+      of your obligations, covenants, representations or warranties
+      contained herein; (ii) your selection of, transactions with, and/or
+      agreements with any authorized SmartBAS reseller, distributor,
+      systems integrator or any other third party; (iii) any product
+      developed by you using the Licensed Software; (iv) any combination
+      of the Licensed Software with any product, equipment, device,
+      software, system or data not supplied by SmartBAS; and (v) the
+      negligence or intentional misconduct of you or your officers,
+      employees, agents or contractors.
+
+
+11.   TERM AND TERMINATION.
+-----------------------------------------------------------------------------
+11.1  Effective Date. This Agreement is effective upon your clicking the
+      "I Accept" button during installation and shall continue until
+      terminated as provided in this Section 11.
+
+11.2  Continued Operation. Subject to Section 11.3, the license to
+      install and use the Licensed Software on the Designated System is
+      perpetual following activation. The 12-month Initial Maintenance
+      Term described in Section 3.1 governs only the provision of
+      support, patches and updates, and does not limit the Licensee's
+      right to continue operating the already-installed Licensed
+      Software on the Designated System after the maintenance term
+      expires.
+
+11.3  Termination for Breach. SmartBAS may terminate this Agreement,
+      including the Licensee's right to continue operating the Licensed
+      Software, upon a material or continuing breach of this Agreement
+      by the Licensee, by giving 10 days' prior written notice of
+      termination, stating the cause therefor. Termination becomes
+      effective at the close of the 10-day period if the breach is not
+      then cured to the satisfaction of SmartBAS.
+
+11.4  Termination by Licensee. You may terminate this Agreement at any
+      time by uninstalling and destroying all copies of the Licensed
+      Software in your possession.
+
+
+12.   TRADEMARKS.
+-----------------------------------------------------------------------------
+      Under no circumstances may you use the "SmartBAS", "SmartBAS BMS",
+      or "Smart Building Automation Solutions" trademarks, or any other
+      trademark or service mark of SmartBAS, to identify goods or services
+      provided by you except as expressly agreed to by SmartBAS in writing.
+
+
+13.   GENERAL TERMS.
+-----------------------------------------------------------------------------
+13.1  Assignment. You may assign this Agreement or your rights and
+      obligations under this Agreement to a purchaser of the hardware on
+      which the Licensed Software is installed, provided (i) you provide
+      the purchaser with a copy of this Agreement, and (ii) the purchaser
+      agrees to comply with all of the terms and conditions of this
+      Agreement. SmartBAS may assign this Agreement without your consent.
+
+13.2  Export. The Licensed Software, including technical data, may be
+      subject to export or import regulations in your jurisdiction. You
+      agree to comply strictly with all such regulations and acknowledge
+      that you have the responsibility to obtain such licenses to export,
+      re-export, or import the Licensed Software as may be required.
+
+13.3  Equitable Relief. You acknowledge that any breach of your
+      obligations hereunder with respect to the Licensed Software or the
+      confidential information of SmartBAS will cause SmartBAS
+      irreparable injury for which it has no adequate remedy at law, and
+      that SmartBAS will be entitled to seek and obtain equitable relief.
+
+13.4  Entire Agreement. This Agreement comprises the entire agreement
+      between the parties relating to its subject matter and supersedes
+      all prior agreements and understandings, written or oral. This
+      Agreement may be amended only by a writing executed by duly
+      authorized representatives of each party.
+
+13.5  Waiver. A waiver of any breach or default of this Agreement shall
+      not create a waiver of the term or of any subsequent breach or
+      default.
+
+13.6  Governing Law. The validity of this Agreement and the rights,
+      obligations and relations of the parties hereunder shall be
+      construed and determined under and in accordance with the
+      substantive laws of the jurisdiction in which SmartBAS's principal
+      place of business is located, without regard to conflicts of laws
+      principles.
+
+13.7  Severability. Should any term or provision of this Agreement be
+      finally determined by a court of competent jurisdiction to be void,
+      invalid, unenforceable or contrary to law, the offending term shall
+      be modified and limited (or, if strictly necessary, deleted) only
+      to the extent required to conform to the requirements of law, and
+      the remainder of this Agreement shall be enforced to the greatest
+      extent permitted by law.
+
+
+============================================================================
+SUMMARY OF KEY TERMS (FOR CONVENIENCE ONLY - SEE ABOVE FOR FULL LANGUAGE):
+
+  - License term:                   Perpetual, host-locked to one machine
+  - Initial support & updates:      12 months from installation date
+  - Activation date recorded in:    license.json (in installation dir)
+  - Host-lock mechanism:            MachineGuid binding, non-transferable
+  - Renewal required for:           Continued support, patches, updates
+  - Software continues to run:      Yes, after maintenance expires
+============================================================================
+
+(c) SmartBAS Technologies. All rights reserved.

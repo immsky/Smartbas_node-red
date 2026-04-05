@@ -1,0 +1,76 @@
+SmartBAS BMS - License Key Pool
+================================
+
+50 pre-generated license keys embedded in the installer binary.
+Each key may be activated on exactly ONE machine. Once activated, the
+key is permanently host-locked to that machine's MachineGuid and cannot
+be reused elsewhere.
+
+Format: SMBAS-XXXX-XXXX-XXXX-XXXX
+Dashes are auto-inserted as the user types on the activation page.
+
+-----------------------------------------------------------------------
+  #   License Key                       Status / Customer / Notes
+-----------------------------------------------------------------------
+  1   SMBAS-A3K9-MX72-BQ4T-ZR81         __________________________
+  2   SMBAS-F7NP-CW56-HJ2D-YL30         __________________________
+  3   SMBAS-T1RV-EK84-QA6U-PD95         __________________________
+  4   SMBAS-G8WS-LB47-NF3X-CM20         __________________________
+  5   SMBAS-Z5JH-OU91-KT6E-WR43         __________________________
+  6   SMBAS-B2DM-YV38-SF7P-XN64         __________________________
+  7   SMBAS-H9QA-IC50-RW1L-TG72         __________________________
+  8   SMBAS-P4KN-MZ63-DJ8B-UE91         __________________________
+  9   SMBAS-W6TF-XR27-AH5C-QL48         __________________________
+ 10   SMBAS-E3VB-SK90-GM4Y-NP15         __________________________
+ 11   SMBAS-L7CW-PD81-TF2X-HJ56         __________________________
+ 12   SMBAS-N1GZ-UA44-BK9R-EQ73         __________________________
+ 13   SMBAS-R5XM-WL69-CP3S-FT28         __________________________
+ 14   SMBAS-U8AK-HN32-ZV7D-MB40         __________________________
+ 15   SMBAS-C6PY-QT85-LW1F-JG97         __________________________
+ 16   SMBAS-D4HB-EX70-NK6A-SR23         __________________________
+ 17   SMBAS-K2VQ-FJ58-TM9P-WC61         __________________________
+ 18   SMBAS-M9NL-GR43-UC5Z-XT87         __________________________
+ 19   SMBAS-Q7DT-AW26-HE8B-YK14         __________________________
+ 20   SMBAS-S0FK-BM91-PX3V-ZL59         __________________________
+ 21   SMBAS-V3YC-KQ74-RN6G-DH82         __________________________
+ 22   SMBAS-X1PW-TZ50-MF4J-CA36         __________________________
+ 23   SMBAS-Y6LS-UB83-QD7K-NR29         __________________________
+ 24   SMBAS-J8MH-CV45-WG2T-PX60         __________________________
+ 25   SMBAS-I5RN-DZ97-EL1B-KF38         __________________________
+ 26   SMBAS-A7KW-MX34-BQ8T-ZR52         __________________________
+ 27   SMBAS-F2NP-CW91-HJ6D-YL75         __________________________
+ 28   SMBAS-T4RV-EK28-QA0U-PD63         __________________________
+ 29   SMBAS-G1WS-LB70-NF9X-CM84         __________________________
+ 30   SMBAS-Z8JH-OU45-KT2E-WR17         __________________________
+ 31   SMBAS-B6DM-YV83-SF1P-XN40         __________________________
+ 32   SMBAS-H3QA-IC76-RW5L-TG29         __________________________
+ 33   SMBAS-P9KN-MZ18-DJ4B-UE53         __________________________
+ 34   SMBAS-W0TF-XR61-AH9C-QL22         __________________________
+ 35   SMBAS-E7VB-SK34-GM8Y-NP89         __________________________
+ 36   SMBAS-L4CW-PD57-TF6X-HJ10         __________________________
+ 37   SMBAS-N5GZ-UA92-BK3R-EQ46         __________________________
+ 38   SMBAS-R2XM-WL25-CP7S-FT81         __________________________
+ 39   SMBAS-U1AK-HN68-ZV4D-MB93         __________________________
+ 40   SMBAS-C9PY-QT01-LW5F-JG37         __________________________
+ 41   SMBAS-D8HB-EX46-NK2A-SR70         __________________________
+ 42   SMBAS-K6VQ-FJ89-TM3P-WC14         __________________________
+ 43   SMBAS-M3NL-GR57-UC9Z-XT42         __________________________
+ 44   SMBAS-Q0DT-AW72-HE4B-YK68         __________________________
+ 45   SMBAS-S5FK-BM39-PX7V-ZL23         __________________________
+ 46   SMBAS-V8YC-KQ16-RN2G-DH55         __________________________
+ 47   SMBAS-X4PW-TZ83-MF8J-CA90         __________________________
+ 48   SMBAS-Y1LS-UB47-QD3K-NR72         __________________________
+ 49   SMBAS-J6MH-CV20-WG8T-PX15         __________________________
+ 50   SMBAS-I9RN-DZ53-EL5B-KF84         __________________________
+-----------------------------------------------------------------------
+
+KEEP THIS FILE PRIVATE.
+Anyone with access to this list can activate SmartBAS BMS on any
+machine (until that specific key is first activated, at which point
+it becomes permanently locked to that machine's MachineGuid).
+
+To add more keys:
+  1. Edit the ValidKeys() function in SmartBAS_Setup.iss
+  2. Bump SetArrayLength(K, N) and append K[N-1] := '...'
+  3. Recompile both installer variants
+  4. Add the new key(s) to this file

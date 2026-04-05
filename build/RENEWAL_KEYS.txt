@@ -1,0 +1,78 @@
+SmartBAS BMS - Annual Maintenance Renewal Key Pool
+====================================================
+
+50 pre-generated MAINTENANCE renewal keys. Each key extends the licensed
+installation by 365 days from the later of (a) today or (b) the current
+expiry date. Each renewal key may only be used ONCE across all machines.
+
+Format: SMREN-XXXX-XXXX-XXXX-XXXX
+(Distinct prefix from activation keys which use SMBAS-...)
+
+Applied via: Start Menu -> SmartBAS BMS -> Renew SmartBAS License
+          or: C:\SmartBAS\tools\renew-license.ps1 (run as Administrator)
+
+-----------------------------------------------------------------------
+  #   Renewal Key                         Issued To / Notes
+-----------------------------------------------------------------------
+  1   SMREN-R4XQ-PM82-LC6V-ZH90           ________________________
+  2   SMREN-T2KB-NW45-DJ8F-YR31           ________________________
+  3   SMREN-G7PS-CL63-HN2X-MK58           ________________________
+  4   SMREN-B5UF-QE17-WA9T-EP74           ________________________
+  5   SMREN-V1JD-MX38-KR6L-CQ25           ________________________
+  6   SMREN-H8NA-TY50-BF4G-SW96           ________________________
+  7   SMREN-P3CL-DR92-UM7K-XN41           ________________________
+  8   SMREN-Y6ZH-KB84-FT1E-JV53           ________________________
+  9   SMREN-D9WQ-GN26-AP5R-LC78           ________________________
+ 10   SMREN-M4FK-SV73-QH0B-NX19           ________________________
+ 11   SMREN-K7BR-XP48-EY2D-WG65           ________________________
+ 12   SMREN-Z1LN-JT96-CU3V-AM82           ________________________
+ 13   SMREN-Q8VC-HD51-RK7F-TP40           ________________________
+ 14   SMREN-U3MG-BW29-LJ6X-EN17           ________________________
+ 15   SMREN-N5YK-FR83-SQ2T-DA54           ________________________
+ 16   SMREN-C6EH-VB70-NG9P-MY36           ________________________
+ 17   SMREN-F2XT-WL45-KE1R-ZB98           ________________________
+ 18   SMREN-J9DP-QA62-BV4M-UC23           ________________________
+ 19   SMREN-A4RK-NC87-XS8Y-LF15           ________________________
+ 20   SMREN-W1GT-MH34-PQ7J-TD69           ________________________
+ 21   SMREN-E5VB-KN91-RA3L-XC26           ________________________
+ 22   SMREN-L8QY-FJ72-WE4K-NH57           ________________________
+ 23   SMREN-X2PD-CR58-UB6M-GV83           ________________________
+ 24   SMREN-I7TF-ZM19-NK5Q-WL40           ________________________
+ 25   SMREN-S0NG-AV65-TX3H-CF92           ________________________
+ 26   SMREN-R9KQ-PM14-LC7V-ZH38           ________________________
+ 27   SMREN-T6KB-NW81-DJ3F-YR52           ________________________
+ 28   SMREN-G3PS-CL27-HN9X-MK74           ________________________
+ 29   SMREN-B0UF-QE53-WA5T-EP19           ________________________
+ 30   SMREN-V7JD-MX90-KR2L-CQ86           ________________________
+ 31   SMREN-H4NA-TY18-BF7G-SW43           ________________________
+ 32   SMREN-P1CL-DR64-UM3K-XN07           ________________________
+ 33   SMREN-Y9ZH-KB36-FT8E-JV21           ________________________
+ 34   SMREN-D2WQ-GN75-AP1R-LC49           ________________________
+ 35   SMREN-M7FK-SV08-QH4B-NX62           ________________________
+ 36   SMREN-K0BR-XP91-EY6D-WG18           ________________________
+ 37   SMREN-Z4LN-JT27-CU8V-AM53           ________________________
+ 38   SMREN-Q1VC-HD84-RK0F-TP95           ________________________
+ 39   SMREN-U6MG-BW62-LJ9X-EN34           ________________________
+ 40   SMREN-N8YK-FR16-SQ5T-DA71           ________________________
+ 41   SMREN-C9EH-VB43-NG2P-MY80           ________________________
+ 42   SMREN-F5XT-WL78-KE4R-ZB61           ________________________
+ 43   SMREN-J2DP-QA95-BV7M-UC46           ________________________
+ 44   SMREN-A7RK-NC30-XS1Y-LF82           ________________________
+ 45   SMREN-W4GT-MH67-PQ0J-TD93           ________________________
+ 46   SMREN-E8VB-KN24-RA6L-XC59           ________________________
+ 47   SMREN-L1QY-FJ05-WE7K-NH86           ________________________
+ 48   SMREN-X5PD-CR91-UB9M-GV17           ________________________
+ 49   SMREN-I0TF-ZM52-NK8Q-WL73           ________________________
+ 50   SMREN-S3NG-AV38-TX6H-CF24           ________________________
+-----------------------------------------------------------------------
+
+Behavior:
+  - Renewal extends the CURRENT expiry by 365 days.
+  - Renewing early does NOT forfeit remaining days -- the new expiry is
+    calculated from the existing expiry date, not from today.
+  - Renewing after expiry calculates from today's date.
+  - Each renewal key is single-use across ALL machines.
+  - Applied renewals are logged at C:\SmartBAS\logs\renewal.log
+    and in the 'renewalHistory' array in license.json.
+
+KEEP THIS FILE PRIVATE.
